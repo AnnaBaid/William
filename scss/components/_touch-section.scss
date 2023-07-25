@@ -1,0 +1,51 @@
+.touch {
+    display: block;
+    margin-bottom: 90px;    
+
+    &__form {
+        display: inline-flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    &__forms-name {
+        display: inline-flex;
+        max-width: 100%;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        margin-bottom: 24px;
+    }
+
+    &__forms-email {
+        display: inline-flex;
+        max-width: 100%;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        margin-bottom: 24px;
+    }
+
+    &__forms-message {
+        display: flex;
+        max-width: 100%;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        margin-bottom: 24px;
+    }
+
+    &__forms_input {
+        background: var(--body-bg);
+        color: var(--c-text-secondary);
+        font-family: var(--ff);
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 4px;
+        border: 1px solid transparent;
+    }
+
+}

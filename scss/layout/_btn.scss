@@ -1,0 +1,27 @@
+.btn {
+    padding: 13px 18px;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    font-family: var(--ff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    &._primary {
+        background: var(--c-primary);
+        color: var(--c-text-white);
+        transition: var(--transition);      
+    }
+    &._secondary {
+        border-radius: 5px;
+        border: 1px solid var(--c-primary);
+        color: var(--c-text-white);
+        transition: var(--transition);
+    }
+
+}

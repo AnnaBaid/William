@@ -1,0 +1,43 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 55px 0;
+    background: var(--services-bg);
+
+    &__title {
+        color: var(--c-text-white);
+        font-size: 16px;
+        font-weight: 400;
+         
+        span {
+            color: var(--c-primary);
+        }
+    }
+    @include tablet-small {
+        display: block;
+    }
+
+    &__ul {    
+        display: flex;
+        align-items: center;
+        gap: 34px;
+        @include tablet-small {
+            margin-top: 20px;
+        }
+    }
+
+    &__a {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: normal;
+        color: var(--c-text-white);
+        transition: var(--transition);
+        
+        &._active,
+        &:hover {
+            color: var(--c-primary);
+        }
+    }
+}
+
