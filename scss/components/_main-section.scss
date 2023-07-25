@@ -62,9 +62,9 @@
             }
             }
         
-            &::before {
-                bottom: 69px;
-                right: 390px;
+            &::after {
+                bottom: 144px;
+                right: 465px;
                 position: absolute;
                 content: '';
                 display: block;
@@ -72,15 +72,16 @@
                 height: 209px;
                 border-radius: 100px;
                 background: var(--c-rule);
+                z-index: -1;
         
-                @include mobile {
+                @include tablet-small {
                     display: none;
                 }
             }
         
             &::before {
                 top: 118px;
-                right: 144px;
+                right: 236px;
                 position: absolute;
                 content: '';
                 display: block;
@@ -89,7 +90,7 @@
                 border-radius: 500px;
                 background: var(--c-rule);
             
-                @include mobile {
+                @include tablet-small {
                     display: none;
                 }
             }
